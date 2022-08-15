@@ -6,5 +6,44 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'helloMundo';
+  title = 'GABRIEL - IAGO - ANDREY';
+
+  logo = "favicon.ico";
+
+  exibe = true;
+
+  exibirNome() : string{
+
+    return "Gabriel";
+  }
+
+  exibirAlerta(){
+
+    alert("Teste.");
+  }
+
+  numerosAleatorios(){
+
+    Math.random()
+  }
+
+  mostrar(){
+
+    if(this.exibe){
+
+      this.exibe = false;
+    } else{
+
+      this.exibe = true;
+    }
+
+    if (this.exibe){
+
+
+    }
+
+  }
 }
+
+
+
